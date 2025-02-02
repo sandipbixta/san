@@ -1,0 +1,9 @@
+function startStream() {
+  alert('Starting Football Stream...');
+  // You can embed the IPTV stream link here later.
+  // For example, display the stream in an iframe:
+  const streamContainer = document.getElementById('streamContainer');
+  streamContainer.innerHTML = `
+    <iframe src="https://bit.ly/ddy-m3u1all" width="100%" height="500" frameborder="0" allowfullscreen></iframe>
+  `;
+}
